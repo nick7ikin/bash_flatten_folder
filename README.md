@@ -56,7 +56,7 @@ DESIGN_FOLDER=design
 
 rm -rf $OUTPUT_FOLDER
 
-for dpi in hdpi  mdpi  xhdpi  xxhdpi;
+for dpi in hdpi mdpi;
 do
   ./flatten_folder.sh --src $DESIGN_FOLDER/$dpi  --dst $OUTPUT_FOLDER/$dpi
 done
