@@ -47,7 +47,7 @@ $ tree ./design
     └── tutorial.png
 ```
 
-There is a `flatten_drawables.sh` script:
+There is a simple and easy-to-customize `flatten_drawables.sh` sample script:
 ```
 #!/bin/bash
 
